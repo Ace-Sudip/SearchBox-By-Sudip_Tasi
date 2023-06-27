@@ -21,6 +21,7 @@ import {
   AiOutlineArrowDown,
   AiOutlineArrowUp,
   AiOutlineCloseSquare,
+  AiOutlineEnter
 } from "react-icons/ai";
 import { LuLayoutList } from "react-icons/lu";
 import Mousetrap from "mousetrap";
@@ -203,7 +204,7 @@ function App() {
               </Kbd>
               &nbsp;to navigate &nbsp;
               <Kbd>
-                <AiOutlineArrowDown />
+                <AiOutlineEnter />
               </Kbd>
               &nbsp;to select &nbsp;
               <Kbd>esc</Kbd>&nbsp;to close
