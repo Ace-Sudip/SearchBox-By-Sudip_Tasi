@@ -18,10 +18,7 @@ import { FaSearch } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import {
-  AiOutlineArrowDown,
-  AiOutlineArrowUp,
   AiOutlineCloseSquare,
-  AiOutlineEnter
 } from "react-icons/ai";
 import { LuLayoutList } from "react-icons/lu";
 import Mousetrap from "mousetrap";
@@ -193,23 +190,6 @@ function App() {
                 </Select>
               </Box>
             </Flex>
-
-            <Flex align="center" justify="flex-start">
-              <Kbd>
-                <AiOutlineArrowUp />
-              </Kbd>{" "}
-              &nbsp;
-              <Kbd>
-                <AiOutlineArrowDown />
-              </Kbd>
-              &nbsp;to navigate &nbsp;
-              <Kbd>
-                <AiOutlineEnter />
-              </Kbd>
-              &nbsp;to select &nbsp;
-              <Kbd>esc</Kbd>&nbsp;to close
-            </Flex>
-
             {filteredResults.length === 0 ? (
               <Text>No results found.</Text>
             ) : (
