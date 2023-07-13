@@ -13,6 +13,6 @@ SearchBox is a web application built with React that provides a search functiona
 
 - React<br/>
 - Chakra UI<br/>
-- Axios<br/>
+
 
 
